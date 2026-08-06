@@ -184,7 +184,474 @@ VITE_SUPABASE_ANON_KEY=...
 <img width="1492" height="832" alt="emergency" src="https://github.com/user-attachments/assets/8a1fcf9b-8553-4e96-8acf-f1230f37c770" />
 <img width="1472" height="837" alt="patient history" src="https://github.com/user-attachments/assets/3cf29131-725d-4858-865e-99bdaa559f2a" />
 <img width="1485" height="820" alt="agent 1" src="https://github.com/user-attachments/assets/850c218e-adc0-4604-bd29-4f97fb515a26" />
+## prompt
+You are an award-winning AI Solutions Architect, Senior Product Designer, Full Stack Engineer, UX Designer, and Agentic AI Expert.
 
+Your task is to build a modern, premium, startup-quality web application called "MediMind AI – Virtual Health Assistant".
+
+This application must NOT be a simple chatbot.
+
+It must demonstrate a complete Agentic AI ecosystem where multiple AI agents collaborate, reason, remember previous information, plan actions, and generate an explainable healthcare recommendation.
+
+The project is for an Agentic AI competition, so prioritize AI workflow, reasoning, planning, prompt engineering, and user experience over production deployment.
+
+--------------------------------------------------
+PROBLEM
+--------------------------------------------------
+
+Many people experience symptoms but don't know whether they should rest, visit a clinic, consult a specialist, or seek emergency care.
+
+Hospitals are overcrowded because patients often cannot determine the urgency of their condition.
+
+The application should intelligently guide users by asking follow-up questions, analyzing symptoms, assessing urgency, suggesting possible conditions (without diagnosing), and recommending the next appropriate step.
+
+The AI must clearly state that it is NOT replacing a doctor and should encourage professional medical consultation when appropriate.
+
+--------------------------------------------------
+APPLICATION NAME
+--------------------------------------------------
+
+MediMind AI
+
+Tagline:
+
+"Your Intelligent Health Guidance Companion"
+
+--------------------------------------------------
+DESIGN STYLE
+--------------------------------------------------
+
+Premium Healthcare SaaS
+
+Minimal
+
+Modern
+
+Blue + White theme
+
+Soft gradients
+
+Glassmorphism
+
+Responsive
+
+Professional
+
+Smooth animations
+
+Cards
+
+Interactive dashboards
+
+Medical illustrations
+
+Progress indicators
+
+Timeline visualization
+
+--------------------------------------------------
+MAIN PAGES
+--------------------------------------------------
+
+1. Landing Page
+
+2. AI Health Assessment
+
+3. AI Agent Workflow
+
+4. Health Summary
+
+5. Appointment Recommendation
+
+6. Emergency Guidance
+
+7. Health History (Memory)
+
+8. About
+
+--------------------------------------------------
+LANDING PAGE
+--------------------------------------------------
+
+Hero Section
+
+Headline:
+
+"AI-Powered Health Guidance Using Collaborative Medical Agents"
+
+Buttons
+
+Start Assessment
+
+How It Works
+
+Statistics
+
+Assessments Completed
+
+Average Response Time
+
+Medical Knowledge Sources
+
+Emergency Alerts
+
+--------------------------------------------------
+THE APPLICATION MUST USE MULTIPLE AI AGENTS
+--------------------------------------------------
+
+Each agent should appear as an independent intelligent module.
+
+Display each agent as a separate animated card.
+
+Status
+
+Waiting
+
+Thinking
+
+Completed
+
+--------------------------------------------------
+AI AGENTS
+--------------------------------------------------
+
+1. Planner Agent
+
+Responsibility
+
+Understand the user's symptoms.
+
+Break the problem into subtasks.
+
+Determine which agents should execute.
+
+--------------------------------------------------
+
+2. Symptom Analysis Agent
+
+Collect symptoms.
+
+Ask intelligent follow-up questions.
+
+Remember previous answers.
+
+Avoid repeating questions.
+
+Extract
+
+Duration
+
+Severity
+
+Location
+
+Frequency
+
+Triggers
+
+Pain level
+
+Medical history
+
+--------------------------------------------------
+
+3. Medical Knowledge Agent
+
+Use trusted medical reasoning.
+
+Identify possible health conditions.
+
+Do NOT diagnose.
+
+Explain why each condition is considered.
+
+Highlight warning signs.
+
+--------------------------------------------------
+
+4. Risk Assessment Agent
+
+Classify urgency into
+
+🟢 Low
+
+🟡 Moderate
+
+🟠 High
+
+🔴 Emergency
+
+Explain the reasoning.
+
+--------------------------------------------------
+
+5. Appointment Recommendation Agent
+
+Recommend
+
+Home care
+
+General Physician
+
+Dermatologist
+
+Cardiologist
+
+Neurologist
+
+ENT
+
+Orthopedic
+
+Emergency Department
+
+Explain why.
+
+--------------------------------------------------
+
+6. Memory Agent
+
+Remember
+
+Previous symptoms
+
+Previous assessments
+
+Age
+
+Gender
+
+Medical conditions
+
+Allergies
+
+Current medications
+
+Do not ask twice.
+
+--------------------------------------------------
+
+7. Explanation Agent
+
+Explain every recommendation in simple language.
+
+Show confidence level.
+
+Mention uncertainty.
+
+--------------------------------------------------
+
+8. Report Generator Agent
+
+Generate a professional patient summary.
+
+Include
+
+Symptoms
+
+Timeline
+
+Risk Level
+
+Possible Conditions
+
+Recommended Doctor
+
+Next Steps
+
+Emergency Advice
+
+--------------------------------------------------
+WORKFLOW
+--------------------------------------------------
+
+User
+
+↓
+
+Planner Agent
+
+↓
+
+Symptom Analysis
+
+↓
+
+Memory
+
+↓
+
+Medical Knowledge
+
+↓
+
+Risk Assessment
+
+↓
+
+Appointment Recommendation
+
+↓
+
+Explanation
+
+↓
+
+Health Report
+
+--------------------------------------------------
+AI REASONING
+--------------------------------------------------
+
+Every recommendation must include
+
+Reasoning
+
+Confidence
+
+Evidence
+
+Suggested next action
+
+The AI should never produce a black-box answer.
+
+--------------------------------------------------
+MEMORY
+--------------------------------------------------
+
+Remember previous answers.
+
+Do not repeat questions.
+
+Use earlier responses when asking follow-up questions.
+
+--------------------------------------------------
+HEALTH ASSESSMENT UI
+--------------------------------------------------
+
+Multi-step conversational interface.
+
+Progress indicator.
+
+Timeline.
+
+Typing animation.
+
+Medical icons.
+
+Expandable reasoning cards.
+
+Confidence meter.
+
+--------------------------------------------------
+RESULT DASHBOARD
+--------------------------------------------------
+
+Show
+
+Urgency Level
+
+Possible Conditions
+
+Recommended Doctor
+
+Confidence Score
+
+AI Reasoning
+
+Recommended Next Step
+
+Emergency Alert if necessary
+
+--------------------------------------------------
+HEALTH REPORT
+--------------------------------------------------
+
+Generate a printable report containing
+
+Patient Summary
+
+Symptoms
+
+Timeline
+
+AI Analysis
+
+Risk Assessment
+
+Recommendations
+
+Follow-up Questions
+
+Emergency Advice
+
+--------------------------------------------------
+DISCLAIMER
+--------------------------------------------------
+
+Display clearly:
+
+"This application is an AI health guidance assistant and is NOT a medical diagnosis system. Always consult a licensed healthcare professional."
+
+--------------------------------------------------
+README
+--------------------------------------------------
+
+Automatically generate a professional README including
+
+Problem Statement
+
+Solution
+
+Architecture
+
+AI Workflow
+
+Agent Descriptions
+
+Prompt Engineering Strategy
+
+Technology Stack
+
+Features
+
+Installation
+
+Future Improvements
+
+--------------------------------------------------
+VISUAL REQUIREMENTS
+--------------------------------------------------
+
+Use beautiful dashboards.
+
+Animated workflow.
+
+Cards.
+
+Medical icons.
+
+Charts.
+
+Confidence gauges.
+
+Progress bars.
+
+Timeline.
+
+Modern SaaS layout.
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+This application should feel like a premium AI healthcare startup.
+
+Avoid creating a basic chatbot.
+
+Focus heavily on Agentic AI reasoning, explainability, memory, planning, autonomous decision making, and collaboration between multiple AI agents.
+
+Every AI agent should visibly contribute to the final recommendation.
 
 
 
