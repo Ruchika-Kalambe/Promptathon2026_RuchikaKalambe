@@ -175,3 +175,18 @@ VITE_SUPABASE_ANON_KEY=...
 - Multi-language support
 - Telehealth booking integration
 - Wearable-device data ingestion for continuous monitoring
+
+## screenshots
+<img width="1497" height="841" alt="agent" src="https://github.com/user-attachments/assets/517cfb90-ccd7-4930-be3e-85c7d3adf0a3" />
+<img width="1507" height="841" alt="assesment" src="https://github.com/user-attachments/assets/4395c51a-1971-4cfa-851f-314abc0078fe" />
+<img width="1507" height="830" alt="urgency" src="https://github.com/user-attachments/assets/b3e7423f-cac8-44af-90c9-484c14837304" />
+<img width="1482" height="811" alt="appointment" src="https://github.com/user-attachments/assets/87c500c4-8777-41ad-95e2-33cc73c613d2" />
+<img width="1492" height="832" alt="emergency" src="https://github.com/user-attachments/assets/8a1fcf9b-8553-4e96-8acf-f1230f37c770" />
+<img width="1472" height="837" alt="patient history" src="https://github.com/user-attachments/assets/3cf29131-725d-4858-865e-99bdaa559f2a" />
+<img width="1485" height="820" alt="agent 1" src="https://github.com/user-attachments/assets/850c218e-adc0-4604-bd29-4f97fb515a26" />
+
+
+
+
+
+
