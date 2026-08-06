@@ -184,6 +184,8 @@ VITE_SUPABASE_ANON_KEY=...
 <img width="1492" height="832" alt="emergency" src="https://github.com/user-attachments/assets/8a1fcf9b-8553-4e96-8acf-f1230f37c770" />
 <img width="1472" height="837" alt="patient history" src="https://github.com/user-attachments/assets/3cf29131-725d-4858-865e-99bdaa559f2a" />
 <img width="1485" height="820" alt="agent 1" src="https://github.com/user-attachments/assets/850c218e-adc0-4604-bd29-4f97fb515a26" />
+
+
 ## prompt
 You are an award-winning AI Solutions Architect, Senior Product Designer, Full Stack Engineer, UX Designer, and Agentic AI Expert.
 
